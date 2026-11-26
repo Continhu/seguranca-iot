@@ -1,0 +1,17 @@
+# Segredos: nunca vão para o GitHub
+config_secreta.py
+secrets.py
+.env
+
+# Ambiente Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ferramentas locais
+.claude/
+.vscode/
+
+# Anotações pessoais da apresentação
+apresentacao/

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "Seminário Segurança em IoT",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-pi-pico-w", "id": "pico", "top": 0, "left": 0 },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -9.3, "left": 158.4, "attrs": { "temperature": "24.5", "humidity": "55" } }
+  ],
+  "connections": [
+    [ "pico:GP4", "dht1:SDA", "green", [] ],
+    [ "pico:3V3", "dht1:VCC", "red", [] ],
+    [ "pico:GND.8", "dht1:GND", "black", [] ]
+  ],
+  "dependencies": {}
+}
